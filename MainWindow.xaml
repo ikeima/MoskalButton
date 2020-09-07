@@ -1,0 +1,14 @@
+﻿<Window x:Class="MoskalButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoskalButton"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="MainWindow" Height="650" Width="1000">
+    <Canvas x:Name="Map">
+        <Button x:Name="Moskal" Width="150" Height="50" Canvas.Bottom="200" Canvas.Left="310" MouseEnter="Button_MouseEnter">
+            Попробуй нажми на меня
+        </Button>
+    </Canvas>
+</Window>
